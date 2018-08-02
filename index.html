@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Position Masonty</title>
+	<title>Float Masonty</title>
 	<style>
 				* {
 			margin: 0;
@@ -26,12 +26,15 @@
 		}
 		img{
 			display:inline-block;
-/	float: left;
+	float: left;
 			margin-left:calc(10%/3);
 			margin-bottom: calc(10%/3);
 		height: 300px;
 		}
-	
+		@media (max-width:900px){
+			padding:0 20px 5vw 20px;
+			
+		}
 	
 	</style>
 </head>
@@ -41,8 +44,9 @@
 		<section>
 		<img src="img/item-1.jpg" alt="item 1">
 		<img src="img/item-2.jpg" alt="item 2">
-		<img src="img/item-3.jpg" alt="item 3">
 		<img src="img/item-9.jpg" alt="item 9">
+		<img src="img/item-3.jpg" alt="item 3">
+		
 		<img src="img/item-4.jpg" alt="item 4">
 		<img src="img/item-5.jpg" alt="item 5">
 		<img src="img/item-6.jpg" alt="item 6">
